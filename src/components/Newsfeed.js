@@ -1,4 +1,5 @@
 import React from 'react';
+import LineGraph from './LineGraph';
 import './Newsfeed.css';
 
 function Newsfeed() {
@@ -11,6 +12,10 @@ function Newsfeed() {
 						<small>
 							<strong>+12,345 (+10.08%)</strong> Today
 						</small>
+					</div>
+
+					<div className="newsfeed__chart">
+						<LineGraph />
 					</div>
 				</div>
 			</div>
