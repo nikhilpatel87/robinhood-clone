@@ -3,10 +3,18 @@
 	color: white;
 }
 
+.newsfeed__chartSection {
+	display: flex;
+	flex-direction: column;
+}
 .newsfeed__price {
 	text-align: left;
 }
 
 .newsfeed__price h1 {
 	margin: 0;
+}
+
+.newsfeed__chart {
+	width: 100%;
 }
