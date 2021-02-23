@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Newsfeed from './components/Newsfeed';
 import Stats from './components/Stats';
 
+const dotenv = require('dotenv').config();
+
 function App() {
 	return (
 		<div className="App">
